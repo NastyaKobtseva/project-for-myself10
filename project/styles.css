@@ -8,6 +8,11 @@ body {
     background-color: black;
 }
 
+.container {
+    margin: 0 5px;
+    /* width: 1211px; */
+}
+
 li {
     list-style: none;
 }
@@ -43,7 +48,7 @@ a {
 
 .unity {
     position: absolute;
-    left: 424px;
+    left: 398px;
     top: -260px;
 }
 
@@ -113,9 +118,7 @@ a {
 }
 
 .button-header {
-    width: 131.771px;
-    height: 41.343px;
-    flex-shrink: 0;
+    padding: 16px 40px;
     border-radius: 6px;
     background: #FA9021;
     color: #FFF;
@@ -170,9 +173,7 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 195px;
-    height: 53px;
-    flex-shrink: 0;
+    padding: 15px 45px;
     border-radius: 40px;
     border: none;
     cursor: pointer;
@@ -210,9 +211,7 @@ a {
 }
 
 .button-title-wow {
-    width: 139px;
-    height: 57px;
-    flex-shrink: 0;
+    padding: 10px 30px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.11);
     border: none;
@@ -276,7 +275,7 @@ a {
 }
 
 .text-after-title {
-    padding-left: 124px;
+    padding-left: 81px;
 }
 
 .text-may1 {
@@ -301,20 +300,20 @@ a {
 .content-may2 {
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.content2-2 {
+    position: absolute;
 }
 
 .orange-may {
     position: absolute;
-    left: 900px;
-    top: -47px;
-}
-
-.photo-may {
-    position: absolute;
-    margin: 10px 30px;
-    padding-top: 46px;
-    padding-bottom: 157px;
+    top: -100px;
+    z-index: -1;
+    right: 100px;
 }
 
 .pay {
@@ -450,9 +449,7 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 187.5%;
-    width: 139px;
-    height: 57px;
-    flex-shrink: 0;
+    padding: 10px 30px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.11);
     border: none;
@@ -505,9 +502,7 @@ a {
 }
 
 .search-btn {
-    width: 104.996px;
-    height: 37px;
-    flex-shrink: 0;
+    padding: 12px 29px;
     border-radius: 8px;
     background: #DC7000;
     color: #FFF;
@@ -610,11 +605,32 @@ a {
     border-radius: 50%;
     cursor: pointer;
     margin-right: 16px;
-    transition: transform 0.3s linear;
+    fill: black;
+    transition: transform 0.3s linear, fill 0.3s ease;
 }
 
 .insta-content:hover {
     transform: scale(1.6) rotate(360deg);
+    fill: rgb(255, 255, 255);
+    background-color: rgb(0, 119, 255);
+}
+
+.insta-content1 {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 16px;
+    fill: black;
+    transition: transform 0.3s linear, fill 0.3s ease, background-color 0.3s ease;
+}
+
+.insta-content1:hover {
+    transform: scale(1.6) rotate(360deg);
+    fill: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #4CAF50, #FFC13B, #F56040, #FD1D1D, #C13584, #833AB4, #5851DB, #405DE6)
 }
 
 .insta {

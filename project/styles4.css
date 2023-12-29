@@ -8,6 +8,10 @@ body {
     background-color: black;
 }
 
+.container {
+    margin: 0 5px;
+}
+
 li {
     list-style: none;
 }
@@ -77,9 +81,7 @@ a {
 }
 
 .button-header {
-    width: 131.771px;
-    height: 41.343px;
-    flex-shrink: 0;
+    padding: 16px 40px;
     border-radius: 6px;
     background: #FA9021;
     color: #FFF;
@@ -110,6 +112,10 @@ a {
     font-weight: 400;
     line-height: 208.5%;
     padding-bottom: 15px;
+}
+
+.link-title-small-wow {
+    color: #FFF;
 }
 
 .span-text-wow {
@@ -445,9 +451,7 @@ a {
 }
 
 .search-btn {
-    width: 104.996px;
-    height: 37px;
-    flex-shrink: 0;
+    padding: 12px 29px;
     border-radius: 8px;
     background: #DC7000;
     color: #FFF;
@@ -550,11 +554,32 @@ a {
     border-radius: 50%;
     cursor: pointer;
     margin-right: 16px;
-    transition: transform 0.3s linear;
+    fill: black;
+    transition: transform 0.3s linear, fill 0.3s ease;
 }
 
 .insta-content:hover {
     transform: scale(1.6) rotate(360deg);
+    fill: rgb(255, 255, 255);
+    background-color: rgb(0, 119, 255);
+}
+
+.insta-content1 {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 16px;
+    fill: black;
+    transition: transform 0.3s linear, fill 0.3s ease, background-color 0.3s ease;
+}
+
+.insta-content1:hover {
+    transform: scale(1.6) rotate(360deg);
+    fill: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #4CAF50, #FFC13B, #F56040, #FD1D1D, #C13584, #833AB4, #5851DB, #405DE6)
 }
 
 .insta {

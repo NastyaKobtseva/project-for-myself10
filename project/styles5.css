@@ -8,6 +8,10 @@ body {
     background-color: black;
 }
 
+.container {
+    margin: 0 5px;
+}
+
 li {
     list-style: none;
 }
@@ -77,9 +81,7 @@ a {
 }
 
 .button-header {
-    width: 131.771px;
-    height: 41.343px;
-    flex-shrink: 0;
+    padding: 16px 40px;
     border-radius: 6px;
     background: #FA9021;
     color: #FFF;
@@ -110,6 +112,10 @@ a {
     font-weight: 400;
     line-height: 208.5%;
     padding-bottom: 15px;
+}
+
+.link-text-wow-small {
+    color: #FFF;
 }
 
 .span-text-wow {
@@ -145,6 +151,7 @@ a {
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 147px;
+    padding-top: 650px;
 }
 
 .hr-wow {
@@ -208,7 +215,8 @@ a {
     display: flex;
 }
 
-.insta-block1-wow {
+.insta-block1-wow, 
+.insta-block1-wow1 {
     width: 34px;
     height: 34px;
     flex-shrink: 0;
@@ -216,32 +224,445 @@ a {
     border-radius: 50%;
     margin-right: 16px;
     fill: white;
-    transition: transform 0.3s linear, fill 0.3s ease;
+    transition: transform 0.3s linear, fill 0.3s ease, background-color 0.3s ease;
 }
 
 .insta-block1-wow:hover {
     transform: scale(1.6) rotate(360deg);
+    fill: rgb(255, 255, 255);
+    background-color: rgb(0, 98, 255);
+}
+
+.insta-block1-wow1:hover {
+    transform: scale(1.6) rotate(360deg);
+    fill: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #4CAF50, #FFC13B, #F56040, #FD1D1D, #C13584, #833AB4, #5851DB, #405DE6)
 }
 
 .insta-block1-wow-svg {
     margin: 10px;
 }
 
+.content-map1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content-map {
+    position: absolute;
+}
+
+.svg-map {
+    position: absolute;
+    right: 269px;
+    top: 125px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map:hover {
+    transform: scale(0.9);
+}
+
+.svg-map2 {
+    position: absolute;
+    left: 333px;
+    top: 70px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map2:hover {
+    transform: scale(0.5);
+}
+
+.svg-map3 {
+    position: absolute;
+    left: 334px;
+    top: 18px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map3:hover {
+    transform: scale(0.7);
+}
+
+.svg-map4 {
+    position: absolute;
+    left: 380px;
+    top: 7px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map4:hover {
+    transform: scale(0.6);
+}
+
+.svg-map5 {
+    position: absolute;
+    left: 247px;
+    top: -15px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map5:hover {
+    transform: scale(0.5);
+}
+
+.svg-map6 {
+    position: absolute;
+    left: 13px;
+    top: 74px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map6:hover {
+    transform: scale(0.5);
+}
+
+.svg-map7 {
+    position: absolute;
+    left: 95px;
+    top: 72px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map7:hover {
+    transform: scale(0.6);
+}
+
+.svg-map8 {
+    position: absolute;
+    left: 174px;
+    top: 79px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map8:hover {
+    transform: scale(0.6);
+}
+
+.svg-map9 {
+    position: absolute;
+    left: 140px;
+    top: 130px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map9:hover {
+    transform: scale(0.8);
+}
+
+.svg-map10 {
+    position: absolute;
+    left: 260px;
+    top: 123px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map10:hover {
+    transform: scale(0.6);
+}
+
+.svg-map11 {
+    position: absolute;
+    left: 218px;
+    top: 187px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map11:hover {
+    transform: scale(0.5);
+}
+
+.svg-map12 {
+    position: absolute;
+    left: 164px;
+    top: 216px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map12:hover {
+    transform: scale(0.5);
+}
+
+.svg-map13 {
+    position: absolute;
+    left: 256px;
+    top: 299px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map13:hover {
+    transform: scale(0.5);
+}
+
+.svg-map14 {
+    position: absolute;
+    left: 343px;
+    top: 345px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map14:hover {
+    transform: scale(0.4);
+}
+
+.svg-map15 {
+    position: absolute;
+    left: 300px;
+    top: 362px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map15:hover {
+    transform: scale(0.7);
+}
+
+.svg-map16 {
+    position: absolute;
+    left: 272px;
+    top: 429px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map16:hover {
+    transform: scale(0.6);
+}
+
+.svg-map17 {
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map17:hover {
+    transform: scale(0.6);
+}
+
+.svg-map18 {
+    position: absolute;
+    right: 150px;
+    top: 76px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map18:hover {
+    transform: scale(0.5);
+}
+
+.svg-map19 {
+    position: absolute;
+    right: 280px;
+    top: 56px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map19:hover {
+    transform: scale(0.4);
+}
+
+.svg-map20 {
+    position: absolute; 
+    right: 346px;
+    top: 105px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map20:hover {
+    transform: scale(0.7);
+}
+
+.svg-map21 {
+    position: absolute;
+    right: 490px;
+    top: 86px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map21:hover {
+    transform: scale(0.6);
+}
+
+.svg-map22 {
+    position: absolute;
+    right: 220px;
+    top: 198px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map22:hover {
+    transform: scale(0.4);
+}
+
+.svg-map23 {
+    position: absolute;
+    right: 448px;
+    top: 151px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map23:hover {
+    transform: scale(0.7);
+}
+
+.svg-map24 {
+    position: absolute;
+    right: 293px;
+    top: 234px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map24:hover {
+    transform: scale(0.7);
+}
+
+.svg-map25 {
+    position: absolute;
+    right: 540px;
+    top: 256px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map25:hover {
+    transform: scale(0.5);
+}
+
+.svg-map26 {
+    position: absolute;
+    right: 440px;
+    top: 276px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map26:hover {
+    transform: scale(0.9);
+}
+
+.svg-map27 {
+    position: absolute;
+    right: 450px;
+    top: 376px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map27:hover {
+    transform: scale(0.7);
+}
+
+.svg-map28 {
+    position: absolute;
+    right: 202px;
+    top: 331px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map28:hover {
+    transform: scale(0.5);
+}
+
+.svg-map29 {
+    position: absolute;
+    right: 95px;
+    top: 417px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map29:hover {
+    transform: scale(0.4);
+}
+
+.svg-map30 {
+    position: absolute;
+    top: 403px;
+    right: 168px;
+    cursor: pointer;
+    transform: scale(0.1);
+    transition: transform 700ms linear;
+}
+
+.svg-map30:hover {
+    transform: scale(0.7);
+}
+
 .city {
     background-color: #1C140F;
-    position: relative;
-    z-index: -2;
+    background-image: url('./image/line-input-main5.svg'), url('./image/line2-input-main5.svg');
+    background-repeat: no-repeat;
+    height: 919px;
+    background-position: top right, bottom left;
 }
 
-.line-background-city {
-    position: absolute;
-    right: 0;
-    z-index: -1;
-}
-
-.title-content-city {
+.content-city {
     text-align: center;
-    padding-top: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-text-city {
+    text-align: center;
+    padding-top: 91px;
 }
 
 .title-city {
@@ -260,15 +681,87 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 189.5%;
-    padding-bottom: 79px;
 }
 
-.last-first-name-city {
+.form-city {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.input-name1-wow {
+.name-city {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    margin-bottom: 20px;
+}
+
+.name-one-city {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.3s linear;
+}
+
+.name-one-city:hover {
+    transform: translateY(-10px);
+}
+
+.name-one-city1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.3s linear;
+}
+
+.name-one-city1:hover {
+    transform: translateY(-10px);
+}
+
+.email-city {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.3s linear;
+}
+
+.email-city:hover {
+    transform: translateY(-10px);
+}
+
+.email-city-input {
+    width: 671px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 0.6px solid #CECECE;
+    background: rgba(255, 255, 255, 0.07);
+    margin-bottom: 20px;
+    outline: none;
+    padding: 5px 15px;
+    color: white;
+}
+
+.email-text-city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-city-input1 {
+    width: 671px;
+    height: 232px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 0.6px solid #CECECE;
+    background: rgba(255, 255, 255, 0.07);
+    margin-bottom: 51px;
+    outline: none;
+    padding: 15px 15px;
+    color: white;
+}
+
+.text-input-name {
     color: #4F4F4F;
     font-family: 'Poppins';
     font-size: 14px;
@@ -285,14 +778,279 @@ a {
     flex-shrink: 0;
     border-radius: 9px;
     border: 0.6px solid #CECECE;
-    background-color: rgba(255, 255, 255, 0.07);
+    background: rgba(255, 255, 255, 0.07);
+    outline: none;
+    padding: 5px 15px;
+    color: white;
 }
 
-.emeil-city {
-    width: 322px;
-    height: 56px;
+.button-city {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 204.3%;
+    border: none;
+    cursor: pointer;
+    padding: 10px 48px;
+    border-radius: 10px;
+    background-color: #DC7000;
+    transition: transform 0.3s linear;
+}
+
+.button-city:hover {
+    transform: scale(1.3) translateY(-10px);
+}
+
+.search{
+    width: 385.679px;
+    height: 48px;
     flex-shrink: 0;
-    border-radius: 9px;
-    border: 0.6px solid #CECECE;
-    background: rgba(255, 255, 255, 0.07);
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px;
+    transition: transform 0.3s linear;
+}
+
+.search:hover {
+    transform: translateY(-10px);
+}
+
+.search-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-text{
+    border: none;
+    background: white;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+.search-text:active, .search-text:focus-visible{
+    outline: none;
+}
+
+.search-btn {
+    padding: 12px 29px;
+    border-radius: 8px;
+    background: #DC7000;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s linear;
+}
+
+.search-btn:hover {
+    transform: scale(1.1);
+}
+
+.title-text-stay {
+    padding-left: 167px;
+    padding-top: 150px;
+}
+
+.title-stay {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 187.5%;
+    padding-bottom: 25px;
+}
+
+.text-title-stay {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 187.5%;
+    padding-bottom: 74px;
+}
+
+.background-stay2 {
+    width: 1170px;
+    height: 189px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #1C140F;
+    margin: auto;
+    margin-bottom: 163px;
+}
+
+.content-stay-text-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 41px;
+}
+
+.text-stay1 {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.text-stay2 {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    background-color: #070707;
+}
+
+.content-footer1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 79px;
+    padding-bottom: 53px;
+}
+
+.social-networks-footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.insta-content {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 16px;
+    fill: black;
+    transition: transform 0.3s linear, fill 0.3s ease;
+}
+
+.insta-content:hover {
+    transform: scale(1.6) rotate(360deg);
+    fill: rgb(255, 255, 255);
+    background-color: rgb(0, 119, 255);
+}
+
+.insta-content1 {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 16px;
+    fill: black;
+    transition: transform 0.3s linear, fill 0.3s ease, background-color 0.3s ease;
+}
+
+.insta-content1:hover {
+    transform: scale(1.6) rotate(360deg);
+    fill: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #4CAF50, #FFC13B, #F56040, #FD1D1D, #C13584, #833AB4, #5851DB, #405DE6)
+}
+
+.insta {
+    margin: 9px;
+}
+
+.text-logo {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 153.5%;
+    padding-bottom: 15px;
+}
+
+.text-after-logo {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 25px;
+}
+
+.link-text-logo {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-item-footer1 {
+    padding-bottom: 15px;
+}
+
+.link-menu-footer1 {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menu-item-footer {
+    padding-bottom: 11px;
+    transition: transform 0.3s linear;
+}
+
+.menu-item-footer:hover {
+    transform: translateX(17%);
+}
+
+.link-menu-footer {
+    color:rgb(177, 177, 177);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 0.3s ease;
+}
+
+.link-menu-footer:hover {
+    color: #DC7000;
+}
+
+.text-after-link {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190.6%;
+    text-align: center;
+    padding: 29px;
 }
